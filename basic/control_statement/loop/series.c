@@ -243,6 +243,166 @@ Pattern:
 
 
 
+//++++++++++++++++++++++
+// Q.09 -2⁵ + 4¹⁰ - 6¹⁵ + 8²⁰ - .... + n
+//++++++++++++++++++++++
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+    int i;
+    int t=10,sum=0;
+    printf("Pattern:\n");
+    for (i=1; i<=t; i++) {
+        if (i%2 ==0) {
+            printf("%d^%d + ",i*2,i*5); // pattern
+            sum+=pow(i*2,i*3);
+        } else {
+            printf("%d^%d + ",i*-2,i*5); // pattern
+            sum+=pow(i*-2,i*5);
+        }
+    }
+    printf("\n\n SUM: %d",sum);
+}
+
+/*
+------- OUTPUT -------
+Pattern:
+-2^5 + 4^10 + -6^15 + 8^20 + -10^25 + 12^30 + -14^35 + 16^40 + -18^45 + 20^50 +
+
+ SUM: 2147483647
+*/
+
+// 📌 NOTES
+//  ⚠️ limit of signed int is 32bits that is { (-2³¹ to 2³¹-1) => -2147483648 to 2147483647}
+//  🧑‍🔧 Fix by Increaseing limit of sum variable
+
+// 👩‍💻 ✅
+//  Use :  long data Type for sum
+
+
+
+//++++++++++++++++++++++
+// Q.10 1 + 1/2 + 1/3 + 1/4 + ....+ 1/n
+//++++++++++++++++++++++
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i;
+    int t=10;
+    float sum=0;
+    printf("Pattern:\n");
+    for (i=1; i<=t; i++) {
+            printf("1/%d + ",i); // pattern
+            //sum+=1/i;
+            sum+=1.0/i;
+    }
+    printf("\n\n SUM: %f",sum);
+}
+
+/*
+------- OUTPUT -------
+Pattern:
+1/1 + 1/2 + 1/3 + 1/4 + 1/5 + 1/6 + 1/7 + 1/8 + 1/9 + 1/10 +
+
+ SUM: 2.928968
+*/
+
+// 📌 NOTES
+//  ⚠️ sum+=1/i; => sum is float, but 1 and i both integer data type
+//  🕵️‍♀️ integer/integer is always integer
+//  🕵️‍♀️ but, folat/integer is float
+
+// 🧑‍🔧
+//  sum+=1/i; ❌
+//  sum+=1.0/i; ✅
+
+
+
+//++++++++++++++++++++++
+// Q.11 1/2 + 1/4 + 1/6 + ....+ 1/2n
+//++++++++++++++++++++++
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i;
+    int t=10;
+    float sum=0;
+    printf("Pattern:\n");
+    for (i=2; i<=t; i+=2) {
+            printf("1/%d + ",i); // pattern
+            //sum+=1/i;
+            sum+=1.0/i;
+    }
+    printf("\n\n SUM: %f",sum);
+}
+
+/*
+------- OUTPUT -------
+Pattern:
+1/2 + 1/4 + 1/6 + 1/8 + 1/10 +
+
+ SUM: 1.141667
+*/
+
+// 📌 NOTES
+//  ⚠️ sum+=1/i; => sum is float, but 1 and i both integer data type
+//  🕵️‍♀️ integer/integer is alway integer
+//  🕵️‍♀️ but, folat/integer is float
+
+// 🧑‍🔧
+//  sum+=1/i; ❌
+//  sum+=1.0/i; ✅
+
+
+
+//++++++++++++++++++++++
+// Q.12 1 - 1/3 + 1/6 - 1/9 +....+ 1/3(n-1)
+//++++++++++++++++++++++
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i;
+    int t=10;
+    float sum=1;
+    printf("Pattern:\n");
+    for (i=1; i<t; i++) {
+        if (i%2 ==0) {
+            printf("+1/%d ",3*i); // pattern
+            //sum+=1/i;
+            sum+=1.0/(3*i);
+        } else {
+            printf("-1/%d ",3*i); // pattern
+            //sum+=1/i;
+            sum-=1.0/(3*i);
+        }
+
+    }
+    printf("\n\n SUM: %f",sum);
+}
+/*
+------- OUTPUT -------
+Pattern:
+-1/3 +1/6 -1/9 +1/12 -1/15 +1/18 -1/21 +1/24 -1/27
+
+ SUM: 17.666666
+*/
+
+// 📌 NOTES
+//  ⚠️ sum+=1/i; => sum is float, but 1 and i both integer data type
+//  🕵️‍♀️ integer/integer is alway integer
+//  🕵️‍♀️ but, folat/integer is float
+
+// 🧑‍🔧
+//  sum+=1/i; ❌
+//  sum+=1.0/i; ✅
+
+
+
 /*
 ++++++++++++++++++++++
 
