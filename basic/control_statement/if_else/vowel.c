@@ -1,3 +1,9 @@
+
+
+//++++++++++++++++++++++
+// Q.01 To check given alphabet is vowel or constant
+//++++++++++++++++++++++
+
 #include<stdio.h>
 int main()
 {
@@ -15,3 +21,10 @@ printf("%c is consonant",t);
 
     return 0;
 }
+
+/*
+------- OUTPUT -------
+Enter Alphabet:
+a
+a is Vowel
+*/
