@@ -1,3 +1,10 @@
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++
+// Q. Create a program to check year is leap year or not (using user input)
+
+
 #include<stdio.h>
 int main()
 {
@@ -9,8 +16,11 @@ printf("LEAP YEAR");
 else 
 printf("NON LEAP YEAR");
 
-
-
-
 return 0;
 }
+
+// ----------------OUTPUT---------------------
+
+    // Enter Year:
+    // 2024
+    // LEAP YEAR
