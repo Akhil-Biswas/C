@@ -1,3 +1,7 @@
+//++++++++++++++++++++++
+// Q. WAP to find sum of two numbers. with return type, without arguments
+//++++++++++++++++++++++
+
 #include<stdio.h>
 #include<conio.h>
 int add();

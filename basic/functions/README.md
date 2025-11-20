@@ -11,5 +11,5 @@
 |WAP to check odd-even and positive-negative. Implement modular program |[code](3.c)|
 | WAP to input 4 degit number & find the the sum of digits.|[code](7.c)|
 |WAP to find the factorial|[code](8.c)|
-|WAP to find  perfect no without return type with arguments|[code](4.c)|
+|WAP to find  perfect no without return type with arguments|[code](9.c)|
 | WAP to print fibonacci series & input a number to check if that number Pallindrom number or not.Implement modular program.| [code](4.c)|

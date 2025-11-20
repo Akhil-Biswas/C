@@ -1,3 +1,6 @@
+//++++++++++++++++++++++
+// Q. WAP to find sum of two numbers
+//++++++++++++++++++++++
 #include<stdio.h>
 #include<conio.h>
 void add();
