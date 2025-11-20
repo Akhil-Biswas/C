@@ -1,3 +1,7 @@
+//++++++++++++++++++++++
+// Q. WAP to find perfect no without return type with arguments
+//++++++++++++++++++++++
+
 #include<stdio.h>
 #include<conio.h>
 

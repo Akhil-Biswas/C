@@ -1,3 +1,6 @@
+//++++++++++++++++++++++
+// Q. WAP to print fibonacci series & input a number to check if that number Pallindrom number or not.Implement modular program.
+//++++++++++++++++++++++
 #include<stdio.h>
 #include<conio.h>
 void fib();

@@ -1,3 +1,7 @@
+//++++++++++++++++++++++
+// Q. WAP to print 1-10 in ascending order & 10-1 in descending order.
+//++++++++++++++++++++++
+
 #include<stdio.h>
 #include<conio.h>
 void ascending () {

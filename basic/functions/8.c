@@ -1,3 +1,7 @@
+//++++++++++++++++++++++
+// Q. WAP to find the factorial
+//++++++++++++++++++++++
+
 #include<stdio.h>
 #include<conio.h>
 void fact();

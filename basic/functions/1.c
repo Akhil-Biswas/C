@@ -1,3 +1,7 @@
+//++++++++++++++++++++++
+// Q. Write a code to print area of circle 3 time and your name 2 time.
+//++++++++++++++++++++++
+
 #include<stdio.h>
 #include<conio.h>
 void area() {

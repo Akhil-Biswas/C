@@ -1,3 +1,6 @@
+//++++++++++++++++++++++
+// Q. WAP to input 4 degit number & find the the sum of digits.
+//++++++++++++++++++++++
 #include<stdio.h>
 #include<conio.h>
 void add();
