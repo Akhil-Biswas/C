@@ -15,7 +15,7 @@ void main(){
     printf("Enter consumed units: ");
     scanf("%d",&units);
     if(units <= 300){
-        bill = bill + (units * 7;)
+        bill = bill + (units * 7);
     }
     else if(units <= 700){
         bill = bill + (300 * 7) + ((units - 300) * 9);
@@ -26,6 +26,6 @@ void main(){
     else{
         bill = bill + (300 * 7) + (500 * 9) + (700 * 12) + ((units - 1500) * 15);
     }
-    printf("Total Electricity Bill: Rs.%d", bill);
+    printf("Total Telephone Bill: Rs.%d", bill);
     getch();
 }

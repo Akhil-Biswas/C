@@ -15,7 +15,7 @@ void main(){
     printf("Enter consumed units: ");
     scanf("%d",&units);
     if(units <= 300){
-        bill = bill + (units * 7;)
+        bill = bill + (units * 7);
     }
     else if(units <= 700){
         bill = bill + (300 * 7) + ((units - 300) * 9);
