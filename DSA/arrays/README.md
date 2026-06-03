@@ -1,5 +1,5 @@
 ## Array Operations
-+ [Traversal](.traversal.c)
++ [Traversal](traversal.c)
 
 + Insertion
 
